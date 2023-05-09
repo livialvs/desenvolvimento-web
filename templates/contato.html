@@ -12,16 +12,16 @@
 
     <hr>
 
-    <form>
+    <form method="post" action="/contato">
 
-        Seu e-mail:<br>
-        <input type="text" name="Seu e-mail"> <br>
-        Assunto:<br>
-
-        <input type="text" name="Assunto"> <br>
-        Descrição:<br>
-
-        <textarea name="Descrição"></textarea> <br>
+        <label for="">Seu e-mail:</label><br>
+        <input type="text" name="email" placeholder="Digite seu email..."> <br>
+        
+        <label for="">Assunto:</label><br>
+        <input type="text" name="assunto" placeholder="Digite o assunto..."> <br>
+        
+        <label for="">Descrição:</label><br>
+        <textarea name="descricao" placeholder="Digite a descrição..."></textarea> <br>
 
         <input type="submit" value="Enviar">
     </form>
